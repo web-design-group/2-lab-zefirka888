@@ -1,0 +1,44 @@
+@font-face { 
+
+	font-family: 'shrek';
+		src: url('shrekou.ttf') format('truetype');
+
+    font-family: 'shrek2';
+    src: url('JackBrusher.ttf') format('truetype');
+}	
+  
+* {
+    background-color: #e1dfb6;
+	text-align: center;
+	margin: 0px;
+    padding: 0px;
+	border-radius: 15px;
+	 
+}
+
+section{
+	margin: 160px 200px;
+	background: #7a9244;
+}
+#main-image{
+	float: right;
+	 width: 500px;
+    height: auto; 
+	background: #7a9244;
+}
+
+h2{
+	font-family: 'shrek2';
+	font-size: 40px;
+	background: #7a9244;
+}
+
+#shrek-description{
+	font-family: 'shrek2';
+	font-size: 20px;
+	text-align: left;
+	 margin-top: 350px;
+	 background: #7a9244;
+	 padding-bottom: 460px;
+	 padding-left: 50px
+}
