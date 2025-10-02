@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#about {
+  scroll-margin-top: 65px;
+}
+
+@font-face { 
+
+	font-family: 'shrek';
+	src: url('shrekou.ttf') format('truetype');
+
+    font-family: 'shrek2';
+    src: url('JackBrusher.ttf') format('truetype')
+}	
+  
+* {
+    background-color: #e1dfb6;
+	text-align: center;
+	margin: 0px;
+    padding: 0px;
+	border-radius: 30px
+	 
+}
+
+nav a{
+  color: #5c452d; 
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d5de2e;
+  transform: scale(1.1);
+  display: inline-block;
+  transition: all 0.3s ease
+}
+
+article{
+	margin: 160px 200px;
+	background: #7a9244
+}
+
+#main-image2{
+	float: left;
+	background: #7a9244;
+	width: 500px;
+    height: auto; 
+	margin-top: 160px;
+	padding-left: 350px
+}
+
+#main-image{
+	margin-top: 10px;
+	float: right;
+	width: 400px;
+    height: auto; 
+	background: #7a9244
+}
+
+h2{
+	font-family: 'shrek2';
+	font-size: 40px;
+	background: #7a9244;
+	padding-top: 40px;
+}
+
+.class1{
+	font-family: 'shrek2';
+	font-size: 20px;
+	text-align: left;
+	 margin-top: 290px;
+	 background: #7a9244;
+	 padding-bottom: 390px;
+	 padding-left: 50px
+}
+
+li{
+	background: #7a9244;
+	list-style-position: inside;
+	text-align: left;
+	padding-left: 820px
+}
